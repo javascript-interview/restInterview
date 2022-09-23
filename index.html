@@ -63,7 +63,7 @@
 		table {
 			width: 750px;
 			border-collapse: collapse;
-			border: 2px solid #000000;
+			border: 1px solid #3498db;
 		}
 
 		th {
@@ -99,7 +99,7 @@
 	</div>
 
 
-	<div id="CreateUsers" class="tabcontent">
+	<div id="CreateUsers" class="tabcontent" style="padding-left:0px; margin-left:0px;">
 		<h3 style="color:#3498db">Create Users</h3>
 		<table style="center;display: block;color: black;">
 			<form id="my-form" onsubmit="return false" action="http://developers.gictsystems.com/api/dummy/submit/"
@@ -147,7 +147,7 @@
 		</table>
 	</div>
 
-	<div id="ViewUsers" class="tabcontent">
+	<div id="ViewUsers" class="tabcontent" style="padding-left: 0px; margin-left: 0px;">
 		<h3>View Users</h3>
 		<p style="color:#3498db;">Some users from Endpoint. Click View to refresh list. </p>
 
@@ -286,7 +286,7 @@
 				
 					var table = document.createElement('table');
 					table.setAttribute('id', 'table2');
-
+				
 					var tr = document.createElement('tr');
 
 					var th = document.createElement('th');
